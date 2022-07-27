@@ -5,7 +5,7 @@
   }
 
   &:hover {
-    color: #000;
+    color: #230046;
   }
 }
 
@@ -43,16 +43,9 @@
 }
 
 .nav-li-a {
-  // font-family: "Gilroy";
-  // font-style: normal;
-  // font-weight: 700;
-  // font-size: 18px;
-  // line-height: 22px;
-  color: #ffffff;
   margin: 0;
   transition: color 0.3s ease-in-out;
   display: block;
-  padding: 4px 0;
   transition: all 0.1s ease-in-out;
   position: relative;
 
@@ -66,10 +59,10 @@
   }
 
   @media only screen and (max-width: 768px) {
-    color: #000;
+    color: #6b7280;
 
     &:hover {
-      color: #005140;
+      color: #230046;
     }
   }
 }
@@ -98,7 +91,7 @@
 .burger-line {
   width: 30px;
   height: 2px;
-  background: rgb(255, 255, 255);
+  background: #230046;
   transition: 0.3s all;
 }
 
