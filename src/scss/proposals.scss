@@ -1,0 +1,50 @@
+.proposals {
+  margin-bottom: 150px;
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(auto, 361px));
+    justify-content: center;
+    gap: 60px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  &__icon {
+    margin-bottom: 40px;
+    width: 140px;
+    height: 140px;
+    background: #eef2ff;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &_first {
+      background-image: url("@img/icons/statistic.svg");
+    }
+
+    &_second {
+      background-image: url("@img/icons/dollar.svg");
+    }
+
+    &_third {
+      background-image: url("@img/icons/search.svg");
+    }
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #374151;
+  }
+
+  &__subtitle {
+  }
+}

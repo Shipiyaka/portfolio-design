@@ -10,10 +10,12 @@
   &__column {
     &_text {
       margin-right: 80px;
+      max-width: 622px;
     }
 
     &_img {
       width: 478px;
+      min-width: 340px;
       height: 525px;
       background-repeat: no-repeat;
       background-size: cover;
@@ -45,8 +47,8 @@
   &__title {
     margin-bottom: 40px;
     font-weight: 700;
-    font-size: 72px;
-    line-height: 72px;
+    font-size: 65px;
+    line-height: 65px;
     color: #1f2937;
   }
 
@@ -82,15 +84,15 @@
     line-height: 16px;
     color: #6b7280;
 
-    &::before {
-      display: block;
-      content: "";
-      position: relative;
-      width: 622px;
-      height: 0px;
-      background: #6b7280;
-      border: 1px solid #e5e7eb;
-      margin-bottom: 20px;
-    }
+    // &::before {
+    //   display: block;
+    //   content: "";
+    //   position: relative;
+    //   width: 622px;
+    //   height: 0px;
+    //   background: #6b7280;
+    //   border: 1px solid #e5e7eb;
+    //   margin-bottom: 20px;
+    // }
   }
 }
