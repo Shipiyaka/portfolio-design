@@ -2,12 +2,98 @@
 }
 
 @media (max-width: 992px) {
+  .hero__container {
+    flex-direction: column;
+  }
+
+  .hero__column_text {
+    margin-right: 0;
+    margin-bottom: 80px;
+  }
 }
 
 @media (max-width: 768px) {
+  .features__columns {
+    flex-direction: column;
+  }
+
+  .features__column_img {
+    margin-right: 0;
+    width: 100vw;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 30px;
+  }
+
+  .gallery__item_first {
+    height: 232px;
+  }
+
+  .gallery__item_second {
+    height: 203px;
+  }
+
+  .gallery__item_third {
+    height: 465px;
+  }
+
+  .gallery__item_fourth {
+    height: 200px;
+  }
+
+  .gallery__inner {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
 }
 
 @media (max-width: 576px) {
+  .hero {
+    margin-bottom: 150px;
+  }
+
+  .hero__title {
+    font-size: 52px;
+    line-height: 52px;
+  }
+
+  .title {
+    font-size: 38px;
+    line-height: 38px;
+  }
+
+  .features {
+    margin-bottom: 120px;
+  }
+
+  .features__title {
+    margin-bottom: 120px;
+  }
+
+  .clients {
+    margin-bottom: 120px;
+  }
+
+  .feed {
+    margin-bottom: 120px;
+  }
+
+  .feed__title {
+    margin-bottom: 120px;
+  }
+
+  .proposals {
+    margin-bottom: 120px;
+  }
+
+  .career {
+    margin-bottom: 120px;
+  }
+
+  .career__title {
+    margin-bottom: 120px;
+  }
 }
 
 @media (max-width: 375px) {

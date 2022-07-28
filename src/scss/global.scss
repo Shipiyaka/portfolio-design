@@ -18,7 +18,7 @@ body {
   font-size: 18px;
   line-height: 28px;
   color: #6b7280;
-  min-width: 320px;
+  // min-width: 320px;
   margin: 0;
   font-family: $font-family;
   background-color: rgb(255, 255, 255);
@@ -93,6 +93,7 @@ body {
 
 .link {
   border-bottom: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
 
   &:hover {
     border-bottom: 2px solid currentColor;

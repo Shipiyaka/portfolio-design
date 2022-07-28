@@ -1,11 +1,11 @@
 .features {
-  margin-bottom: 150px;
+  margin-bottom: $mb;
 
   &__container {
   }
 
   &__title {
-    margin-bottom: 150px;
+    margin-bottom: $mb;
     max-width: 1039px;
     font-weight: 600;
     font-size: 48px;
@@ -35,18 +35,13 @@
 
     &_text {
       max-width: 690px;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(auto, 311px));
+      gap: 68px;
     }
   }
 
   &__item {
-    max-width: 311px;
-
-    &:not(:last-child) {
-      margin-bottom: 68px;
-    }
   }
 
   &__subtile {

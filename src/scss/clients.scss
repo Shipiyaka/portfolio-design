@@ -1,6 +1,6 @@
 .clients {
   background-color: #fef2f2;
-  margin-bottom: 150px;
+  margin-bottom: $mb;
 
   &__container {
     padding-top: 100px;
@@ -16,9 +16,10 @@
   }
 
   &__imgs {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(157px, auto));
+    gap: 30px;
     justify-content: space-between;
-    align-items: center;
   }
 
   &__img {
