@@ -13,6 +13,7 @@
 
 .gallery {
   width: 100%;
+  max-width: 1186px;
   display: grid;
   grid-template-areas:
     "first third"
@@ -26,28 +27,24 @@
     &_first {
       grid-area: first;
       background-image: url("@img/feed/img-01.jpg");
-      max-width: 619px;
       height: 464px;
     }
 
     &_second {
       grid-area: second;
       background-image: url("@img/feed/img-02.jpg");
-      max-width: 619px;
       height: 406px;
     }
 
     &_third {
       grid-area: third;
       background-image: url("@img/feed/img-03.jpg");
-      max-width: 536px;
       height: 900px;
     }
 
     &_fourth {
       grid-area: fourth;
       background-image: url("@img/feed/img-04.jpg");
-      max-width: 1186px;
       height: 400px;
     }
 

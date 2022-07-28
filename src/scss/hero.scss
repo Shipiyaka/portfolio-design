@@ -84,15 +84,15 @@
     line-height: 16px;
     color: #6b7280;
 
-    // &::before {
-    //   display: block;
-    //   content: "";
-    //   position: relative;
-    //   width: 622px;
-    //   height: 0px;
-    //   background: #6b7280;
-    //   border: 1px solid #e5e7eb;
-    //   margin-bottom: 20px;
-    // }
+    &::before {
+      display: block;
+      content: "";
+      position: relative;
+      max-width: 622px;
+      height: 0px;
+      background: #6b7280;
+      border: 1px solid #e5e7eb;
+      margin-bottom: 20px;
+    }
   }
 }

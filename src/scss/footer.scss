@@ -1,0 +1,68 @@
+.footer {
+  background-color: #fef2f2;
+
+  &__container {
+    padding-top: 110px;
+    padding-bottom: 110px;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    color: #374151;
+    text-align: center;
+  }
+
+  &__subtitle {
+    margin-bottom: 100px;
+    max-width: 664px;
+    text-align: center;
+  }
+
+  &__icons {
+    width: 100%;
+    max-width: 550px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35px, auto));
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  &__icon {
+    width: 35px;
+    height: 35px;
+
+    &:nth-child(1) {
+      background-image: url("@img/icons/icon-tw.svg");
+    }
+
+    &:nth-child(2) {
+      background-image: url("@img/icons/icon-dr.svg");
+    }
+
+    &:nth-child(3) {
+      background-image: url("@img/icons/icon-fb.svg");
+    }
+
+    &:nth-child(4) {
+      background-image: url("@img/icons/icon-cp.svg");
+    }
+
+    &:nth-child(5) {
+      background-image: url("@img/icons/icon-email.svg");
+    }
+
+    &:nth-child(6) {
+      background-image: url("@img/icons/icon-inst.svg");
+    }
+  }
+}
+.container {
+}
+.title {
+}
+.subtitle {
+}
